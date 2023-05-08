@@ -1,0 +1,46 @@
+{
+  "name": "r-row-demo",
+  "version": "2.0.0",
+  "description": "Demo for R-ROW, the TypeScript 2D Game Engine",
+  "main": "index.html",
+  "scripts": {
+    "build": "webpack --config webpack/prod.js",
+    "start": "webpack-dev-server --config webpack/base.js --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheMenerv/r-row-demo.git"
+  },
+  "author": "Yoan B. (Menerv)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheMenerv/r-row-demo/issues"
+  },
+  "homepage": "https://github.com/TheMenerv/r-row-demo#readme",
+  "devDependencies": {
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
+    "@jridgewell/source-map": "^0.3.3",
+    "@types/css-font-loading-module": "^0.0.8",
+    "@types/node": "^18.15.11",
+    "@types/socket.io-client": "^3.0.0",
+    "babel-loader": "^9.1.2",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.7.3",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "raw-loader": "^4.0.2",
+    "style-loader": "^3.3.2",
+    "terser-webpack-plugin": "^5.3.7",
+    "ts-loader": "^9.4.2",
+    "typescript": "^5.0.4",
+    "webpack": "^5.78.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.13.2",
+    "webpack-merge": "^5.8.0",
+    "worker-loader": "^3.0.8"
+  },
+  "dependencies": {
+    "r-row": "^2.3.0"
+  }
+}

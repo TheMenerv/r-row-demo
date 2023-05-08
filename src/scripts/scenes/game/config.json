@@ -1,0 +1,29 @@
+{
+  "gameScale": 3,
+  "hero": {
+    "health": 100,
+    "speed": 5,
+    "damage": 5,
+    "attackRange": 9,
+    "spawnPosition": {
+      "x": 180,
+      "y": 148
+    }
+  },
+  "orc": {
+    "health": 20,
+    "speed": {
+      "walk": 2,
+      "chase": 4.5
+    },
+    "damage": 3,
+    "range": {
+      "attack": 9,
+      "chase": 40
+    },
+    "timer": {
+      "beforeNextAttack": 0.8,
+      "beforeRespawn": 30
+    }
+  }
+}

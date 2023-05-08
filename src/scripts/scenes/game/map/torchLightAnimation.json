@@ -1,0 +1,12 @@
+{
+  "frame": { "width": 16, "height": 24 },
+  "animations": {
+    "run": {
+      "name": "run",
+      "loop": true,
+      "end": false,
+      "speed": 10,
+      "frames": [0, 1, 2, 3, 4, 5, 6, 7]
+    }
+  }
+}
