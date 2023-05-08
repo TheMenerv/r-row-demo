@@ -1,3 +1,4 @@
+import '../styles/main.css';
 import { Game, Point, ServiceContainer } from 'r-row';
 import { LoadingScene } from './scenes/LoadingScene';
 

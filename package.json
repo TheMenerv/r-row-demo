@@ -41,6 +41,6 @@
     "worker-loader": "^3.0.8"
   },
   "dependencies": {
-    "r-row": "^2.3.0"
+    "r-row": "^2.3.2"
   }
 }
